@@ -90,22 +90,22 @@
 
 ```csharp
 1.  string name = "Hello";
-    Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name));
-2.    Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);
-3.    Console.WriteLine("Hello " + "World");
-4.    Console.WriteLine("Here comes a slash \\");
-5.    Console.WriteLine("|{0, 10}|", 999);
-6.    Console.WriteLine("|{0,-10}|", 000);
-7.    Console.WriteLine("The value: {0}.", 500);
-8.    Console.WriteLine("The value: {0:C}.", 500);
-9.    Console.WriteLine("{0,-10:F4}", 12.3456789);
-10.   Console.WriteLine("{0,-10:C}", 12.3456789);
-11.   Console.WriteLine("{0,-10:E3}", 12.3456789);
-12.   Console.WriteLine("{0,-10:x}", 65535);
-13.   Console.WriteLine("{0,-10:X}", 65535);
+    Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name)); //Hello there. i said Hello!
+2.    Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);  //2 1 3
+3.    Console.WriteLine("Hello " + "World"); //Hello World
+4.    Console.WriteLine("Here comes a slash \\"); //Here comes a slash \
+5.    Console.WriteLine("|{0, 10}|", 999); //999
+6.    Console.WriteLine("|{0,-10}|", 000); //0
+7.    Console.WriteLine("The value: {0}.", 500); //The value: 500
+8.    Console.WriteLine("The value: {0:C}.", 500); //The value:500.00
+9.    Console.WriteLine("{0,-10:F4}", 12.3456789); //12.3456789
+10.   Console.WriteLine("{0,-10:C}", 12.3456789); //12.35
+11.   Console.WriteLine("{0,-10:E3}", 12.3456789); //1.235E+001
+12.   Console.WriteLine("{0,-10:x}", 65535); //ffff
+13.   Console.WriteLine("{0,-10:X}", 65535); //FFFF
 14.   int i; 
       Console.WriteLine("Value\tSquared\tCubed"); 
       for(i = 1; i < 10; i++) 
           Console.WriteLine("{0}\t{1}\t{2}", i, i*i, i*i*i); 
-15.    Console.WriteLine("{0:#.###}.", 1234.56789);
+15.    Console.WriteLine("{0:#.###}.", 1234.56789);  //1234.5678
 ```
